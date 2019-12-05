@@ -1,0 +1,22 @@
+7a5e213 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{0}: merge develop: Fast-forward
+9febb3c HEAD@{1}: checkout: moving from develop to master
+7a5e213 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{2}: merge styles: Merge made by the 'recursive' strategy.
+606c7b3 (origin/images, images) HEAD@{3}: checkout: moving from styles to develop
+1d5f9e8 (origin/styles, styles) HEAD@{4}: commit: (not) resolving conflict
+07a420c HEAD@{5}: checkout: moving from develop to styles
+606c7b3 (origin/images, images) HEAD@{6}: reset: moving to HEAD
+606c7b3 (origin/images, images) HEAD@{7}: reset: moving to HEAD
+606c7b3 (origin/images, images) HEAD@{8}: merge images: Fast-forward
+df4eebd HEAD@{9}: checkout: moving from styles to develop
+07a420c HEAD@{10}: commit: html change
+cafd769 HEAD@{11}: commit: styles commit
+df4eebd HEAD@{12}: checkout: moving from develop to styles
+df4eebd HEAD@{13}: checkout: moving from images to develop
+606c7b3 (origin/images, images) HEAD@{14}: commit: update images
+6787da8 HEAD@{15}: checkout: moving from develop to images
+df4eebd HEAD@{16}: checkout: moving from images to develop
+6787da8 HEAD@{17}: commit: commit images
+df4eebd HEAD@{18}: checkout: moving from develop to images
+df4eebd HEAD@{19}: commit: commit index
+9febb3c HEAD@{20}: checkout: moving from master to develop
+9febb3c HEAD@{21}: commit (initial): readme commit
