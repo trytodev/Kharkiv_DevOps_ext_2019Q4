@@ -2,47 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Task 2.2</title>
+    <title>Task 2.3</title>
   </head>
 <div align="center">
-<p><img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/intro.png" alt="img" /></p>
-
+<p><img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/intro.jpg" alt="img", width="1000"; /></p>
+<br>
 <p><em>Task 2.3</em>
+<br>
 <strong><em>AWS</em></strong></p>
 
 <p>Hi! I am Anatolii and this is my report for Task 2.3 of the EPAM Kharkiv DevOps course (KhNURE group).</p>
+<br>
+<p>In this practical task i've learned about free tier of AWS (Amazon Web Services) and it's basic functionality - EC2 (Amazon Elastic Compute Cloud) and pre-defined machines on it (WordPress website), S3 (Amazon Simple Storage Service) and using of CLI AWS.
+<br>
+Everything could be done with your pinky finger.</p>
+<br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/me_aws.png" alt="img", width="600"; />
 
-<p>In this practical task i've learned about free tier of AWS (Amazon Web Services) and it's basic functionality - EC2 (Amazon Elastic Compute Cloud) and pre-defined machines on it (WordPress website), S3 (Amazon Simple Storage Service) and using of CLI AWS. Everything could be done with your pinky finger.
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/me_aws.png" alt="img" /></p>
-
-<p>So move on to the practice.
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/moving_on.png" alt="img" /></p>
-
+<p>So move on to the practice.</p>
+<br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/moving_on.jpg" alt="img", width="300"; />
+<br>
 <p>First of all i've created an Linux Virtual Machine with CentOS 6 as operation system, checked it's access policies and connected to the VM.</p>
-
 <p>Second step - setup the S3 and upload / retrieve files from it. There was no any difficulties, so this was pretty easy.</p>
-
-<p>Next step - create WordPress website. This is almost like first part of the task, but with some changes.
-First i've selected a template which is ready for launching WordPress website out-of-box.
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/select.png" alt="img" /></p>
-
-<p>Then after all instance setup and booting it up needed to check logs to get admin access to the WordPress control panel.
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/log.png" alt="img" /></p>
-
+<p>Next step - create WordPress website. This is almost like first part of the task, but with some changes.</p>
+<p>First i've selected a template which is ready for launching WordPress website out-of-box.</p>
+<br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/select.png" alt="img" />
+<br>
+<p>Then after all instance setup and booting it up needed to check logs to get admin access to the WordPress control panel.</p>
+<br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/log.png" alt="img" />
+<br>
 <p>After it you have all the access to the website.</p>
-
 <p>AWS also could be used as Domain Name Registrar, so all work with website could be done from a single place.</p>
-
 <p>Final step in the task - use CLI to control S3 bucket.</p>
+<p>First - setting up initial configuration. Second step - create new bucket.</p>
+<br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/cli_bucket.png" alt="img" />
+<br>
+<p>After this i can upload / download (with some errors) / remove files from the S3 using CLI.</p>
+<br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/upload.png" alt="img" /><br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/download.png" alt="img" /><br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/remove.png" alt="img" /><br>
 
-<p>First - setting up initial configuration. Second step - create new bucket.
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/cli_bucket.png" alt="img" /></p>
-
-<p>After this i can upload / download (with some errors) / remove files from the S3 using CLI.
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/upload.png" alt="img" />
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/download.png" alt="img" />
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/remove.png" alt="img" /></p>
-
-<p>As general result of work - small one page website, which is hosted by S3.
-<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/success.png" alt="img" /></p>
+<p>As general result of work - small (and bad) one page website, which is hosted by S3 and GitHub.</p>
+<br>
+<img src="https://raw.githubusercontent.com/trytodev/Kharkiv_DevOps_ext_2019Q4/master/m2/task2.3/img/success.png" alt="img", width="500"; />
 </div>
