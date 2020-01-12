@@ -1,3 +1,5 @@
+# Task 4.1
+### Powershell, pt. 2
 
 In this practical task i've used PS to write data to file, operate with arrays, input and output user data and removed files accepted by some criterias.
 
