@@ -73,7 +73,7 @@ Count user input
 
 Arguments math
 
-![img](https://github.com/trytodev/Kharkiv_DevOps_ext_2019Q4/blob/master/m4/task4.2/img/math.png)
+![img](https://github.com/trytodev/Kharkiv_DevOps_ext_2019Q4/blob/master/m4/task4.2/img/math_fixed.png)
 
 Compare arguments
 
