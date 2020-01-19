@@ -1,4 +1,4 @@
-# Task 4.2
+# Task 4.3
 ### Powershell, pt. 3
 
 In this practical task i've used PS to get information about the PC, check connection between them and created small task automation.
