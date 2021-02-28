@@ -1,4 +1,4 @@
-# Report for the task 1.2
+# Report for the task 1.2.
 
 ### Main objective
 
